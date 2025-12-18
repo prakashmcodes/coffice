@@ -5,20 +5,21 @@ Designed for developers, creators, and deep thinkers.
 
 ## ✨ Features
 - Dark, modern UI with coffee-inspired theme
-- Smooth hover interactions
+- Hover and Transform interactions
 - Simple & Clean sections: Hero, Experience, Menu, CTA & Footer
 
 ## 🧱 Built With
 - HTML5
+- CSS
 - Tailwind CSS
 - Coffee
 
-## 🧩 Wireframe
+## Wireframe
 Initial layout sketch used during planning:
-
+<img src="sketch.jpeg" alt="Wireframe" style="width:50%; height:auto;">
 ![Wireframe](sketch.jpeg)
 
-## 🖥️ Demo
+## Demo
 Final UI implementation:
 
 ![Demo](demo.png)
