@@ -1,13 +1,167 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>coffice</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffice - Work, Collaborate & Coffee</title>
+    <link rel="stylesheet" href="src/index.css">
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
+    
+</head>
+<body class="bg-black text-white">
+    
+    <nav class="fixed top-0 w-full bg-black/90 backdrop-blur-sm border-b z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-amber-600"><img src="image.png" class="w-14 rounded-full" alt=""></div>
+            <div class="hidden md:flex gap-8">
+                <a href="#experience" class="hover:text-amber-500 transition">Experience</a>
+                <a href="#menu" class="hover:text-amber-500 transition">Menu</a>
+                <a href="#contact" class="hover:text-amber-500 transition">Contact</a>
+            </div>
+            <a href="" class="w-10 "><svg viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:none;stroke:#f8f7f7;stroke-linecap:round;stroke-linejoin:round;fill-rule:evenodd;}</style></defs><path class="cls-1" d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5"></path></g></svg></a>
+        </div>
+    </nav>
+
+    
+    <section class="min-h-screen flex items-center justify-center pt-20 px-6 bg-gradient-to from-amber-900/10 to-black">
+        <div class="max-w-3xl mx-auto text-center space-y-8">
+            <h1 class="text-6xl md:text-7xl font-bold leading-tight">
+                Where <span class="text-amber-500">Interaction</span><br>
+                Meets <span class="text-amber-500">Coffee</span>
+            </h1>
+            <p class="text-xl text-gray-400">
+                A workspace is designed for coders, developers, and deep thinkers.
+            </p>
+            <div class="flex gap-4 justify-center flex-wrap">
+                <a class="bg-amber-700 cursor-pointer hover:bg-amber-600 text-white font-bold py-3 px-8 rounded-full transition hover:scale-105 active:scale-95 transform">
+                    Order
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="experience" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12 text-amber-500">Why Coffice?</h2>
+        
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-amber-900/20 border border-amber-700/30 p-6 rounded-xl hover:border-amber-500/60 hover:shadow-lg hover:shadow-amber-700/20 transition duration-300">
+                <div class="text-4xl mb-4"><svg fill="#ff5900" class="w-10" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="#ff5900"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="m16 0c8.836556 0 16 7.163444 16 16s-7.163444 16-16 16-16-7.163444-16-16 7.163444-16 16-16zm1.0008661 2.0352252-.0008661 4.9647748h-2l.0001337-4.96484538c-6.9350811.48937684-12.47560224 6.02989798-12.96497908 12.96497908l4.96484538-.0001337v2l-4.9647748.0008661c.48983875 6.9346138 6.03016066 12.474626 12.9649085 12.9639793l-.0001337-4.9648454h2l.0008661 4.9647748c6.9342805-.4898152 12.4740935-6.0296282 12.9639087-12.9639087l-4.9647748-.0008661v-2l4.9648454.0001337c-.4893533-6.93474784-6.0293655-12.47506975-12.9639793-12.9649085zm-1.0008661 8.9647748c2.7614237 0 5 2.2385763 5 5s-2.2385763 5-5 5-5-2.2385763-5-5 2.2385763-5 5-5zm0 2c-1.6568542 0-3 1.3431458-3 3s1.3431458 3 3 3 3-1.3431458 3-3-1.3431458-3-3-3z"></path></g></svg></div>
+                <h3 class="text-xl font-bold mb-2">Perfect Focus</h3>
+                <p class="text-gray-400">Curated ambiance designed for deep work and concentration.</p>
+            </div>
+
+            <div class="bg-amber-900/20 border border-amber-700/30 p-6 rounded-xl hover:border-amber-500/60 hover:shadow-lg hover:shadow-amber-700/20 transition duration-300">
+                <div class="text-4xl mb-4"><svg fill="#f6efef" class="w-10" viewBox="0 0 512 512" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="#f6efef"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="coffee-cup-tea-heart-love"> <path d="M238.23,232c-3.555,0-6.797-2.383-7.738-5.977c-7.405-28.394,22.411-41.758,2.418-62.078l-28.313-28.758 c-25.432-25.828-9.573-67.618,24.203-70.992c9.75-0.945,19.324,1.594,27.199,7.125c7.879-5.531,17.461-8.07,27.199-7.125 c33.725,3.369,49.662,45.136,24.203,70.992c-3.098,3.156-8.168,3.188-11.313,0.094c-3.148-3.102-3.188-8.164-0.086-11.313 c16.014-16.277,6.085-41.818-14.387-43.852c-7.355-0.703-14.652,1.914-19.918,7.25c-3.008,3.063-8.391,3.063-11.398,0 c-5.262-5.336-12.516-7.953-19.918-7.25c-20.382,2.025-30.48,27.494-14.387,43.852l28.316,28.758 c28.169,28.609-3.408,49.828,1.664,69.25c1.113,4.281-1.445,8.648-5.723,9.766C239.578,231.914,238.898,232,238.23,232z M272.328,231.742c4.273-1.117,6.832-5.492,5.719-9.766c-1.926-7.359,0.953-14.102,4.285-21.906 c5.188-12.164,12.293-28.813-5.949-47.344c-3.105-3.156-8.172-3.188-11.316-0.094c-3.148,3.102-3.188,8.164-0.09,11.313 c10.723,10.898,7.68,18.023,2.637,29.844c-3.914,9.172-8.355,19.578-5.051,32.234c0.941,3.594,4.184,5.977,7.738,5.977 C270.969,232,271.648,231.914,272.328,231.742z M256.207,320c-43.139,0-88-14.07-88-40c0-25.984,45.336-40,88-40s88,14.016,88,40 C344.207,308.551,292.544,320,256.207,320z M256.207,256c-43.953,0-72,14.211-72,24c0,3.24,3.92,6.939,6.557,8.845 C207.263,278.089,230.727,272,256.207,272c25.481,0,48.948,6.09,65.446,16.846c2.643-1.909,6.554-5.599,6.554-8.846 C328.207,270.211,300.16,256,256.207,256z M256.207,336c32.999,0,69.611-7.794,87.76-24c0.08,0,0.16-0.08,0.24-0.16V312h20 c15.44,0,28,12.56,28,28v40c0,15.44-12.56,28-28,28h-34.32c-6.551,10.078-13.768,17.389-23.147,24h13.467c4.422,0,8,3.578,8,8 s-3.578,8-8,8h-128c-4.422,0-8-3.578-8-8s3.578-8,8-8h13.533c-22.667-15.928-37.533-42.225-37.533-72v-48.16 C189.819,330.127,227.766,336,256.207,336z M364.207,384c2.24,0,4-1.76,4-4v-40c0-2.24-1.76-4-4-4h-20v24c0,8.32-1.12,16.4-3.36,24 H364.207z M283.967,374.56c-7.12-8.96-20-9.44-27.76-1.44c-7.76-8-20.64-7.52-27.76,1.44c-6.32,7.84-4.96,19.36,2.08,26.56 l19.92,20.48c3.2,3.2,8.32,3.2,11.52,0l19.92-20.48C288.927,393.92,290.287,382.4,283.967,374.56z"></path> </g> <g id="Layer_1"></g> </g></svg></div>
+                <h3 class="text-xl font-bold mb-2">Craft Coffee</h3>
+                <p class="text-gray-400">Hand-selected beans & expertly crafted beverages.</p>
+            </div>
+
+            <div class="bg-amber-900/20 border border-amber-700/30 p-6 rounded-xl hover:border-amber-500/60 hover:shadow-lg hover:shadow-amber-700/20 transition duration-300">
+                <div class="text-4xl mb-4"><svg  class="w-10" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#fafafa" stroke="#fafafa"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#e8e8e8;} </style> <g> <path class="st0" d="M435.95,287.525c32.51,0,58.87-26.343,58.87-58.853c0-32.51-26.361-58.871-58.87-58.871 c-32.502,0-58.863,26.361-58.863,58.871C377.088,261.182,403.448,287.525,435.95,287.525z"></path> <path class="st0" d="M511.327,344.251c-2.623-15.762-15.652-37.822-25.514-47.677c-1.299-1.306-7.105-1.608-8.673-0.636 c-11.99,7.374-26.074,11.714-41.19,11.714c-15.099,0-29.184-4.34-41.175-11.714c-1.575-0.972-7.373-0.67-8.672,0.636 c-2.757,2.757-5.765,6.427-8.698,10.683c7.935,14.94,14.228,30.81,16.499,44.476c2.27,13.7,1.533,26.67-2.138,38.494 c13.038,4.717,28.673,6.787,44.183,6.787C476.404,397.014,517.804,382.987,511.327,344.251z"></path> <path class="st0" d="M254.487,262.691c52.687,0,95.403-42.716,95.403-95.402c0-52.67-42.716-95.386-95.403-95.386 c-52.678,0-95.378,42.716-95.378,95.386C159.109,219.975,201.808,262.691,254.487,262.691z"></path> <path class="st0" d="M335.269,277.303c-2.07-2.061-11.471-2.588-14.027-1.006c-19.448,11.966-42.271,18.971-66.755,18.971 c-24.466,0-47.3-7.005-66.738-18.971c-2.555-1.583-11.956-1.055-14.026,1.006c-16.021,16.004-37.136,51.782-41.384,77.288 c-10.474,62.826,56.634,85.508,122.148,85.508c65.532,0,132.639-22.682,122.165-85.508 C372.404,329.085,351.289,293.307,335.269,277.303z"></path> <path class="st0" d="M76.049,287.525c32.502,0,58.862-26.343,58.862-58.853c0-32.51-26.36-58.871-58.862-58.871 c-32.511,0-58.871,26.361-58.871,58.871C17.178,261.182,43.538,287.525,76.049,287.525z"></path> <path class="st0" d="M115.094,351.733c2.414-14.353,9.225-31.253,17.764-46.88c-2.38-3.251-4.759-6.083-6.955-8.279 c-1.299-1.306-7.097-1.608-8.672-0.636c-11.991,7.374-26.076,11.714-41.182,11.714c-15.108,0-29.202-4.34-41.183-11.714 c-1.568-0.972-7.382-0.67-8.681,0.636c-9.887,9.854-22.882,31.915-25.514,47.677c-6.468,38.736,34.924,52.762,75.378,52.762 c14.437,0,29.016-1.777,41.459-5.84C113.587,379.108,112.757,365.835,115.094,351.733z"></path> </g> </g></svg></div>
+                <h3 class="text-xl font-bold mb-2">Collaborate</h3>
+                <p class="text-gray-400">Connect with other creators in this space.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="menu" class="py-20 px-6 bg-amber-900/5">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12 text-amber-500">Our Menu</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 border-b border-amber-700/30 pb-3">Coffee Varities</h3>
+                    <div class="space-y-4">
+                        <div class="hover:text-amber-400 transition">
+                            <div class="flex justify-between mb-1">
+                                <h4 class="font-semibold">The Coder's Dream</h4>
+                                <span class="text-amber-500">₹70</span>
+                            </div>
+                            <p class="text-sm text-gray-500">Double espresso, oat milk, vanilla</p>
+                        </div>
+                        <div class="hover:text-amber-400 transition">
+                            <div class="flex justify-between mb-1">
+                                <h4 class="font-semibold">Flow State</h4>
+                                <span class="text-amber-500">₹50</span>
+                            </div>
+                            <p class="text-sm text-gray-500">Nitro cold brew, hazelnut, cinnamon</p>
+                        </div>
+                        <div class="hover:text-amber-400 transition">
+                            <div class="flex justify-between mb-1">
+                                <h4 class="font-semibold">Midnight Brew</h4>
+                                <span class="text-amber-500">₹80</span>
+                            </div>
+                            <p class="text-sm text-gray-500">Cold brew, dark chocolate, ice</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 border-b border-amber-700/30 pb-3">Fresh Bakes</h3>
+                    <div class="space-y-4">
+                        <div class="hover:text-amber-400 transition">
+                            <div class="flex justify-between mb-1">
+                                <h4 class="font-semibold">Rava Biscuit</h4>
+                                <span class="text-amber-500">₹15</span>
+                            </div>
+                            <p class="text-sm text-gray-500">Buttery layered rava with sweet, salt</p>
+                        </div>
+                        <div class="hover:text-amber-400 transition">
+                            <div class="flex justify-between mb-1">
+                                <h4 class="font-semibold">Matcha Blondie</h4>
+                                <span class="text-amber-500">₹25</span>
+                            </div>
+                            <p class="text-sm text-gray-500">Green tea chocolate chunk</p>
+                        </div>
+                        <div class="hover:text-amber-400 transition">
+                            <div class="flex justify-between mb-1">
+                                <h4 class="font-semibold">Real Brownie</h4>
+                                <span class="text-amber-500">₹40</span>
+                            </div>
+                            <p class="text-sm text-gray-500">Fudgy, intense, perfectly paired</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="py-16 px-6 bg-gradient-to-r from-amber-900/20 to-transparent border-t border-amber-700/30">
+        <div class="max-w-3xl mx-auto text-center space-y-6">
+            <h2 class="text-3xl font-bold">Ready to Find Your Perfect Workspace?</h2>
+            <p class="text-gray-400">Join hundreds of creators and thinkers at coffice.</p>
+            <button class="bg-amber-700 hover:bg-amber-600 text-white font-bold py-3 px-10 rounded-full transition hover:scale-105 active:scale-95 transform">
+                Book Your Seat
+            </button>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="py-12 px-6 bg-black border-t border-amber-900/30">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8 mb-8 text-center md:text-left">
+                <div>
+                    <h3 class="text-xl font-bold text-amber-600 mb-2">☕ coffice</h3>
+                    <p class="text-gray-400 text-sm">Where code meets coffee.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-amber-600 mb-2">Hours</h4>
+                    <p class="text-gray-400 text-sm">Mon-Fri: 7am - 9pm<br>Sat-Sun: 9am - 8pm</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-amber-600 mb-2">Contact</h4>
+                    <p class="text-gray-400 text-sm">coffice.com<br>+91 9876543210</p>
+                    <p class="text-gray-400 text-sm">No 72, Adayar, Chennai</p>
+                </div>
+            </div>
+            <div class="border-t border-amber-900/30 pt-8 text-center text-gray-500 text-sm">
+                <p>&copy; 2025 coffice. Crafted with ☕.</p>
+            </div>
+        </div>
+    </section>
+</body>
 </html>
