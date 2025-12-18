@@ -16,8 +16,8 @@ Designed for developers, creators, and deep thinkers.
 
 ## Wireframe
 Initial layout sketch used during planning:
-<img src="sketch.jpeg" alt="Wireframe" style="width:50%; height:auto;">
-![Wireframe](sketch.jpeg)
+
+![Wireframe](<img src="sketch.jpeg" alt="Wireframe" style="width:50%; height:auto;">)
 
 ## Demo
 Final UI implementation:
