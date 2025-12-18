@@ -22,7 +22,7 @@ Initial layout sketch used during planning:
 ## Demo
 Final UI implementation:
 
-![Demo](demo.png)
+<img src="demo.png" alt="Demo" style="width:50%; height:auto;">
 
 ## 📌 Purpose
 This project focuses on:
