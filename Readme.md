@@ -20,7 +20,7 @@ Initial layout sketch used during planning:
 <img src="sketch.jpeg" alt="Wireframe" style="width:50%; height:auto;">
 
 ## Demo
-Final UI implementation:
+Final UI in Desktop view:
 
 <img src="demo.png" alt="Demo" style="width:50%; height:auto;">
 
